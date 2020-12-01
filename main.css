@@ -1,0 +1,102 @@
+.hero 
+{
+    width: 100%;
+    height:1000px;
+    background: linear-gradient(180deg, #1d322b, #4e7851);
+    position: absolute;
+    margin-left: -8px;
+}
+  
+/*.hero .hero-content 
+{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    z-index: 10; 
+}*/
+#menu a
+{
+    text-decoration: none;
+    display: block;
+}
+#menu a:visited
+{
+	color: #1d322b;
+}
+#menu a:link
+{
+	color: #1d322b;
+}
+#menu li
+{
+    list-style: none;
+    
+}
+#menu > li
+{
+   
+    float: left;
+}
+#menu > li > a
+{
+    border: 1px solid black;
+	padding: 25px;
+	background: linear-gradient(to bottom, #ccb8a8 0%, #a96562 100%);
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-family: Stoke, sans;
+	-pie-background: linear-gradient(to bottom, #ccb8a8 0%, #a96562 100%);
+	behavior: url("PIE.htc");
+}
+#menu > li > a:hover
+{
+	background: linear-gradient(to bottom, #ccb8a8 0%, #a96562 100%);	
+	color: white;
+	cursor: pointer;
+	-pie-background: linear-gradient(to bottom,#ccb8a8 0%, #a96562 100%);	
+	behavior: url("PIE.htc");
+}
+#menu > li:first-child  > a
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+#menu > li:last-child  > a
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-right: 1px solid #ccc;
+}
+#menu > li ul li a
+{
+	padding: 15px 30px;
+	border-bottom: 1px solid #ccc;
+}
+#menu li ul li a:hover
+{
+	color: #2e3c2e;
+	cursor: pointer;
+	background: linear-gradient(to bottom, #ccb8a8, #a96562 100%);	
+	-pie-background: linear-gradient(to bottom,#ccb8a8 0%, rgba(18,79,140,0.9) 100%);	
+	behavior: url("PIE.htc");
+}
+#menu > li ul
+{
+	position: absolute;
+	background: linear-gradient(to bottom, #ccb8a8 0%, #a96562 100%);	
+	border-left: 1px solid #ccc;
+	font-size: 12px;
+	opacity: 0;
+	transition: 0.5s;
+	-pie-background: linear-gradient(to bottom, #ccb8a8 0%, #a96562 100%);	
+	behavior: url("PIE.htc");
+}
+#menu > li:hover ul
+{
+	opacity: 1;
+}
+
+
+    
